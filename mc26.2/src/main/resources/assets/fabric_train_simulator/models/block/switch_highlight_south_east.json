@@ -1,0 +1,1 @@
+{"ambientocclusion":false,"textures":{"light":"minecraft:block/diamond_block","particle":"#light"},"elements":[{"from":[7,1.09,12],"to":[9,1.11,16],"faces":{"up":{"texture":"#light"}}},{"from":[12,1.09,7],"to":[16,1.11,9],"faces":{"up":{"texture":"#light"}}}]}

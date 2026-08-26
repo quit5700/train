@@ -1,0 +1,1 @@
+{"variants":{"facing=north":{"model":"fabric_train_simulator:block/train_depot"},"facing=east":{"model":"fabric_train_simulator:block/train_depot","y":90},"facing=south":{"model":"fabric_train_simulator:block/train_depot","y":180},"facing=west":{"model":"fabric_train_simulator:block/train_depot","y":270}}}

@@ -1,0 +1,12 @@
+**/.gradle/
+**/.manual-build/
+**/build/
+**/run/
+**/dist/*.jar
+!**/dist/*0.2.40*.jar
+**/logs/
+**/*.log
+**/.idea/
+**/*.iml
+Thumbs.db
+desktop.ini

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "fabric_train_simulator",
+  "version": "${version}",
+  "name": "模拟火车",
+  "description": "独立的 Fabric 火车、线路、车站、车辆段与自动货运系统。",
+  "authors": ["quit5700"],
+  "license": "All Rights Reserved",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["cn.quit5700.fabrictrain.FabricTrainMod"],
+    "client": [
+      "cn.quit5700.fabrictrain.FabricTrainClient",
+      "cn.quit5700.fabrictrain.FormationClient"
+    ]
+  },
+  "mixins": [
+    "fabric_train_simulator.client.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "~${minecraft_version}",
+    "java": ">=${java_version}",
+    "fabric-api": ">=${fabric_version}"
+  }
+}

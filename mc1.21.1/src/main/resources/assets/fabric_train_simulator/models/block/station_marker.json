@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "up": "fabric_train_simulator:block/station_marker_top",
+    "down": "fabric_train_simulator:block/station_marker_bottom",
+    "north": "fabric_train_simulator:block/station_marker_front",
+    "south": "fabric_train_simulator:block/station_marker_back",
+    "west": "fabric_train_simulator:block/station_marker_left",
+    "east": "fabric_train_simulator:block/station_marker_right",
+    "particle": "fabric_train_simulator:block/station_marker_front"
+  }
+}

@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["RRR","RDR","RRR"],"key":{"R":"minecraft:rail","D":"minecraft:redstone"},"result":{"id":"fabric_train_simulator:signal_rail","count":8}}
