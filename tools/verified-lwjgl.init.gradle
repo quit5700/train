@@ -1,0 +1,14 @@
+allprojects {
+    repositories {
+        exclusiveContent {
+            forRepository {
+                maven {
+                    name = 'VerifiedLwjglLocal'
+                    metadataSources { artifact() }
+                    url = uri(new File(gradle.startParameter.initScripts.find { it.name == 'verified-lwjgl.init.gradle' }.parentFile.parentFile, 'outputs/verified-lwjgl-repository'))
+                }
+            }
+            filter { includeGroup('org.lwjgl') }
+        }
+    }
+}

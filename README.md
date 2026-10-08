@@ -2,9 +2,11 @@
 
 一个适用于 Minecraft（我的世界）Fabric（织物）平台的列车、线路、车站、车辆段与自动货运模组。
 
-当前正式版本：`0.2.40`
+当前正式版本：`0.2.41`（Minecraft 1.20.1／1.20.4）；其他支持版本继续使用`0.2.40`。
 
-[下载正式版](https://github.com/quit5700/train/releases/tag/v0.2.40) · [查看全部发行版](https://github.com/quit5700/train/releases) · [支持版本明细](SUPPORTED_VERSIONS.md)
+1.20.1／1.20.4的`0.2.41`修复超过140格的轨迹清理死循环，已由用户明确确认正式版；各版运行包和源码保存在对应版本目录的`dist/0.2.41`，测试版仍保留。原因与验证见[BUG-073](docs/bugs/BUG-073.md)。
+
+[下载1.20.1／1.20.4正式版](https://github.com/quit5700/train/releases/tag/v0.2.41) · [其他版本0.2.40](https://github.com/quit5700/train/releases/tag/v0.2.40) · [查看全部发行版](https://github.com/quit5700/train/releases) · [支持版本明细](SUPPORTED_VERSIONS.md)
 
 ![车头、客车和货车设计参考](mc26.2/docs/assets/train-vehicle-orthographic-reference.png)
 
@@ -25,7 +27,7 @@
 
 ## 安装
 
-1. 从 [GitHub Releases（GitHub 发行版）](https://github.com/quit5700/train/releases/tag/v0.2.40) 下载与 Minecraft 版本完全对应、文件名中不含 `sources` 的 JAR（Java 归档）。
+1. 从 [GitHub Releases（GitHub 发行版）](https://github.com/quit5700/train/releases) 下载与 Minecraft 版本完全对应、文件名中不含 `sources` 的 JAR（Java 归档）。
 2. 安装下表对应的 Fabric Loader（Fabric 模组加载器）和 Fabric API（Fabric 应用程序接口）。
 3. 将模组 JAR 放入当前游戏实例的 `mods` 文件夹。
 4. 客户端和服务器使用相同的 Minecraft 与模组版本。
@@ -75,6 +77,12 @@
 5. 使用“立即发车”启动线路自动列车；后续列车按发车间隔补充到在轨上限。
 
 自动列车读取线路保存的节点和道岔方向，不读取道岔界面中供手动列车使用的可见方向。
+
+## 0.2.41 更新
+
+- 修复1.20.1和1.20.4的轨迹队列清理死循环，保留模型、界面和存档格式。
+- 两版分别通过244项及242项自动测试；1.20.1测试版用户反馈正常，1.20.4实机反馈待完成。
+- 用户于2026-10-08明确确认正式版，保留旧正式版及测试版的软件和源码。
 
 ## 0.2.40 更新
 

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="cn.quit5700.fabrictrain.train.TrackTrailCleanupTest" tests="2" skipped="0" failures="2" errors="0" timestamp="2026-10-08T11:58:08" hostname="QUIT5700" time="13.844">
+  <properties/>
+  <testcase name="repeatedlyTrimsBeyondActualTrainHistoryLimit()" classname="cn.quit5700.fabrictrain.train.TrackTrailCleanupTest" time="7.555">
+    <failure message="org.opentest4j.AssertionFailedError: 轨迹清理超时，可能存在死循环 ==&gt; expected: &lt;true&gt; but was: &lt;false&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: 轨迹清理超时，可能存在死循环 ==&gt; expected: &lt;true&gt; but was: &lt;false&gt;
+	at app//org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at app//org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at app//org.junit.jupiter.api.AssertTrue.failNotTrue(AssertTrue.java:63)
+	at app//org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:36)
+	at app//org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:214)
+	at app//cn.quit5700.fabrictrain.train.TrackTrailCleanupTest.runProbe(TrackTrailCleanupTest.java:31)
+	at app//cn.quit5700.fabrictrain.train.TrackTrailCleanupTest.repeatedlyTrimsBeyondActualTrainHistoryLimit(TrackTrailCleanupTest.java:14)
+	at java.base@17/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base@17/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base@17/java.util.ArrayList.forEach(ArrayList.java:1511)
+</failure>
+  </testcase>
+  <testcase name="discardsMultipleOldPointsAfterLargeMovement()" classname="cn.quit5700.fabrictrain.train.TrackTrailCleanupTest" time="6.289">
+    <failure message="org.opentest4j.AssertionFailedError: 轨迹清理超时，可能存在死循环 ==&gt; expected: &lt;true&gt; but was: &lt;false&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: 轨迹清理超时，可能存在死循环 ==&gt; expected: &lt;true&gt; but was: &lt;false&gt;
+	at app//org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at app//org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at app//org.junit.jupiter.api.AssertTrue.failNotTrue(AssertTrue.java:63)
+	at app//org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:36)
+	at app//org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:214)
+	at app//cn.quit5700.fabrictrain.train.TrackTrailCleanupTest.runProbe(TrackTrailCleanupTest.java:31)
+	at app//cn.quit5700.fabrictrain.train.TrackTrailCleanupTest.discardsMultipleOldPointsAfterLargeMovement(TrackTrailCleanupTest.java:19)
+	at java.base@17/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base@17/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base@17/java.util.ArrayList.forEach(ArrayList.java:1511)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

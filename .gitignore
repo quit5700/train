@@ -10,3 +10,7 @@
 **/*.iml
 Thumbs.db
 desktop.ini
+outputs/
+**/dist/*/
+docs/当前实例安装记录*.json
+docs/轨迹清理修复交接.md

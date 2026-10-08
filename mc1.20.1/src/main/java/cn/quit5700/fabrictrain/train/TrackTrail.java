@@ -46,8 +46,8 @@ public final class TrackTrail {
         for (Point point : new ArrayList<>(points)) {
             if (previous != null) length += previous.distance(point);
             if (length > maximumLength) {
-                while (points.peekLast() != point) points.remove(points.size() - 1);
-                points.remove(points.size() - 1);
+                while (points.peekLast() != point) points.removeLast();
+                points.removeLast();
                 return;
             }
             previous = point;
