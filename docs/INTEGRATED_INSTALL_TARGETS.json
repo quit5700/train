@@ -37,7 +37,7 @@
       "fabric-object-builder-api-v1": "11.1.5+e35120df77"
     },
     "source_train_minecraft": "1.20.1",
-    "integrated_version": "0.2.42-test1",
+    "integrated_version": "0.2.42",
     "render_module": "3.0.9+1802ada577",
     "additional_games": [
       {
@@ -87,7 +87,7 @@
       "fabric-object-builder-api-v1": "13.1.0+dba1195c4f"
     },
     "source_train_minecraft": "1.20.4",
-    "integrated_version": "0.2.42-test1",
+    "integrated_version": "0.2.42",
     "render_module": "3.2.1+6fd945a04f"
   },
   {
@@ -128,7 +128,7 @@
       "fabric-object-builder-api-v1": "15.2.1+40875a9319"
     },
     "source_train_minecraft": "1.21.1",
-    "integrated_version": "0.2.42-test1",
+    "integrated_version": "0.2.42",
     "render_module": "5.1.0+ab4c25a019"
   },
   {
@@ -169,7 +169,7 @@
       "fabric-object-builder-api-v1": "18.0.14+38b0d59804"
     },
     "source_train_minecraft": "1.21.4",
-    "integrated_version": "0.2.42-test1",
+    "integrated_version": "0.2.42",
     "render_module": "10.2.1+0d31b09f04"
   },
   {
@@ -210,7 +210,7 @@
       "fabric-object-builder-api-v1": "21.1.10+946bf4c32c"
     },
     "source_train_minecraft": "1.21.8",
-    "integrated_version": "0.2.42-test1",
+    "integrated_version": "0.2.42",
     "render_module": "12.6.0+486b7ff72c"
   },
   {
@@ -251,7 +251,7 @@
       "fabric-object-builder-api-v1": "21.1.28+9bce411b6f"
     },
     "source_train_minecraft": "1.21.11",
-    "integrated_version": "0.2.42-test1",
+    "integrated_version": "0.2.42",
     "render_module": "16.2.0+bee81f016f"
   },
   {
@@ -292,7 +292,7 @@
       "fabric-object-builder-api-v1": "21.1.40+4fc5413f3e"
     },
     "source_train_minecraft": "1.21.11",
-    "integrated_version": "0.2.42-test1",
+    "integrated_version": "0.2.42",
     "render_module": "16.2.10+0290ad933e"
   },
   {
@@ -333,7 +333,7 @@
       "fabric-object-builder-api-v1": "23.1.0+abb459f14c"
     },
     "source_train_minecraft": "26.1.2",
-    "integrated_version": "0.2.42-test1",
+    "integrated_version": "0.2.42",
     "render_module": "23.3.1+e9207d814c"
   },
   {
@@ -374,7 +374,7 @@
       "fabric-object-builder-api-v1": "24.1.0+6fcd5f039e"
     },
     "source_train_minecraft": "26.2",
-    "integrated_version": "0.2.42-test1",
+    "integrated_version": "0.2.42",
     "render_module": "25.3.0+67c847259e"
   },
   {
@@ -415,7 +415,7 @@
       "fabric-object-builder-api-v1": "24.1.11+e2f63d3e5d"
     },
     "source_train_minecraft": "26.2",
-    "integrated_version": "0.2.42-test1",
+    "integrated_version": "0.2.42",
     "render_module": "27.1.0+5af7744b5d"
   }
 ]

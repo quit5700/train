@@ -77,7 +77,7 @@ foreach($taskEntry in $taskPlan.entries) {
         $taskApproved=($taskFull -match '^H:\\CodexWork\\模拟火车模组\\最新正式源码\\versions\\0\.2\.42\\mc(1\.20\.[14]|1\.21\.(1|4|8|10|11)|26\.1\.2|26\.2|26\.3)\\(build|\.gradle|dist|run-smoke)$')
     }
     elseif($taskKind -eq 'obsolete_asset_copy') {$taskApproved=($taskFull -in @((Join-Path $taskSourceRoot 'design/保留素材/logical-world-preview-1793512504'),(Join-Path $taskSourceRoot 'design/保留素材/外观修正')))}
-    elseif($taskKind -eq 'one_off_script') {$taskApproved=($taskFull -in @((Join-Path $taskProjectRoot '正式发布管理.py'),(Join-Path $taskProjectRoot '清理准备.py'),(Join-Path $taskProjectRoot '__pycache__')))}
+    elseif($taskKind -eq 'one_off_script') {$taskApproved=($taskFull -in @((Join-Path $taskProjectRoot '正式发布管理.py'),(Join-Path $taskProjectRoot '清理准备.py'),(Join-Path $taskProjectRoot '__pycache__'),(Join-Path $taskSourceRoot 'tools/__pycache__')))}
     elseif($taskKind -eq 'generated_jvm_temp') {$taskApproved=($taskFull -eq 'H:\CodexWork\q5-gradle-cache\train-formal-temp')}
     if(-not $taskApproved) {throw "未在本模组明确白名单内：$taskFull"}
     if(-not (Test-Path -LiteralPath $taskFull)) {continue}
