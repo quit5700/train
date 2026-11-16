@@ -1,4 +1,0 @@
-2992ecd0ecee79e53bccd92a00694cd2b3ef5532a33a0624f3e5e872f166ba6f  fabric-train-simulator-0.2.41-mc1.20.1-fabric.jar
-009d91b454455cfede4ed298ae53c69b7331c04eab38efeb7e999512ebb83de0  fabric-train-simulator-0.2.41-mc1.20.1-fabric-sources.jar
-989ffd419c3907da123013313b76fc6a21c67dfaeeaa563b8cf56dfaa797ee2d  fabric-train-simulator-0.2.41-mc1.20.4-fabric.jar
-9a9d1b0564c2045671fc3e9e8b61bae6755228bf8f605b5ee40c3970445cc6e7  fabric-train-simulator-0.2.41-mc1.20.4-fabric-sources.jar

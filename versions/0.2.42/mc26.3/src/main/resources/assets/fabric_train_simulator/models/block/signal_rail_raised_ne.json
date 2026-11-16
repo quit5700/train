@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/rail_raised_ne",
+  "textures": {
+    "rail": "fabric_train_simulator:block/signal_rail",
+    "particle": "#rail"
+  }
+}

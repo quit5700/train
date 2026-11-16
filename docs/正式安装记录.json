@@ -1,0 +1,134 @@
+[
+  {
+    "minecraft": "1.20.1",
+    "game": "G:\\game\\mcfabric\\.minecraft\\versions\\1.20.1-Fabric-mtr",
+    "profile": "G:\\game\\mcfabric\\.minecraft\\versions\\1.20.1-Fabric-mtr\\1.20.1-Fabric-mtr.json",
+    "loader": "0.19.3",
+    "fabric_api": "0.92.11+1.20.1",
+    "runtime": "G:\\game\\mcfabric\\.minecraft\\versions\\1.20.1-Fabric-mtr\\mods\\fabric-train-simulator-0.2.42-mc1.20.1-fabric.jar",
+    "sha256": "435a164156c3caa73d350c1a66f5fb9d0108f4103f8034b48a24b3766ff2fe81",
+    "old_renamed": [
+      "G:\\game\\mcfabric\\.minecraft\\versions\\1.20.1-Fabric-mtr\\mods\\fabric-train-simulator-0.2.42-test46-mc1.20.1-fabric.jar.before-formal-66ae826b2a804d479a29b90d761d2aef"
+    ]
+  },
+  {
+    "minecraft": "1.20.1",
+    "game": "G:\\game\\mcfabric\\.minecraft\\versions\\1.20.1-Fabric",
+    "profile": "G:\\game\\mcfabric\\.minecraft\\versions\\1.20.1-Fabric\\1.20.1-Fabric.json",
+    "loader": "0.18.4",
+    "fabric_api": "0.92.11+1.20.1",
+    "runtime": "G:\\game\\mcfabric\\.minecraft\\versions\\1.20.1-Fabric\\mods\\fabric-train-simulator-0.2.42-mc1.20.1-fabric.jar",
+    "sha256": "435a164156c3caa73d350c1a66f5fb9d0108f4103f8034b48a24b3766ff2fe81",
+    "old_renamed": [
+      "G:\\game\\mcfabric\\.minecraft\\versions\\1.20.1-Fabric\\mods\\fabric-train-simulator-0.2.42-test44-mc1.20.1-fabric.jar.before-formal-75aaebeffe4743d398a2f78395e100e4"
+    ]
+  },
+  {
+    "minecraft": "1.20.4",
+    "game": "G:\\game\\mcfabric\\.minecraft\\versions\\1.20.4-Fabric-mtr",
+    "profile": "G:\\game\\mcfabric\\.minecraft\\versions\\1.20.4-Fabric-mtr\\1.20.4-Fabric-mtr.json",
+    "loader": "0.19.3",
+    "fabric_api": "0.97.3+1.20.4",
+    "runtime": "G:\\game\\mcfabric\\.minecraft\\versions\\1.20.4-Fabric-mtr\\mods\\fabric-train-simulator-0.2.42-mc1.20.4-fabric.jar",
+    "sha256": "9f82b90e67a9de5f81e20786fd8483f7ba8604fd82c5bf27e5357c575bc2cd1e",
+    "old_renamed": [
+      "G:\\game\\mcfabric\\.minecraft\\versions\\1.20.4-Fabric-mtr\\mods\\fabric-train-simulator-0.2.42-test46-mc1.20.4-fabric.jar.before-formal-fc4149e57cd8476e9a78ed885148e4de"
+    ]
+  },
+  {
+    "minecraft": "1.21.1",
+    "game": "G:\\game\\mcfabric\\.minecraft\\versions\\1.21.1-mtr",
+    "profile": "G:\\game\\mcfabric\\.minecraft\\versions\\1.21.1-mtr\\1.21.1-mtr.json",
+    "loader": "0.19.3",
+    "fabric_api": "0.116.14+1.21.1",
+    "runtime": "G:\\game\\mcfabric\\.minecraft\\versions\\1.21.1-mtr\\mods\\fabric-train-simulator-0.2.42-mc1.21.1-fabric.jar",
+    "sha256": "ede7521d7ad1c643698084fd02f79e5bbbdefbc0752012ff8b6784f409ae4f98",
+    "old_renamed": [
+      "G:\\game\\mcfabric\\.minecraft\\versions\\1.21.1-mtr\\mods\\fabric-train-simulator-0.2.42-test46-mc1.21.1-fabric.jar.before-formal-c1da2838c6be4c44b91217bcb77c63bd"
+    ]
+  },
+  {
+    "minecraft": "1.21.4",
+    "game": "G:\\game\\mcfabric\\.minecraft\\versions\\1.21.4-Fabric",
+    "profile": "G:\\game\\mcfabric\\.minecraft\\versions\\1.21.4-Fabric\\1.21.4-Fabric.json",
+    "loader": "0.19.3",
+    "fabric_api": "0.119.4+1.21.4",
+    "runtime": "G:\\game\\mcfabric\\.minecraft\\versions\\1.21.4-Fabric\\mods\\fabric-train-simulator-0.2.42-mc1.21.4-fabric.jar",
+    "sha256": "747894dc8b9b89a80b25c616204a13a34c5a23b6c99d12b4afb02791a0e53247",
+    "old_renamed": [
+      "G:\\game\\mcfabric\\.minecraft\\versions\\1.21.4-Fabric\\mods\\fabric-train-simulator-0.2.42-test46-mc1.21.4-fabric.jar.before-formal-cb225d20f0734f7a8c204b19a2df53a2"
+    ]
+  },
+  {
+    "minecraft": "1.21.8",
+    "game": "G:\\game\\mcfabric\\.minecraft\\versions\\1.21.8-Fabric",
+    "profile": "G:\\game\\mcfabric\\.minecraft\\versions\\1.21.8-Fabric\\1.21.8-Fabric.json",
+    "loader": "0.19.3",
+    "fabric_api": "0.136.1+1.21.8",
+    "runtime": "G:\\game\\mcfabric\\.minecraft\\versions\\1.21.8-Fabric\\mods\\fabric-train-simulator-0.2.42-mc1.21.8-fabric.jar",
+    "sha256": "2f3771581e446c6e65e642473fda19e062f12c4071fa5a8c8503181945b80a79",
+    "old_renamed": [
+      "G:\\game\\mcfabric\\.minecraft\\versions\\1.21.8-Fabric\\mods\\fabric-train-simulator-0.2.42-test46-mc1.21.8-fabric.jar.before-formal-58a870d8d228497ba73952b0a8d8a02e"
+    ]
+  },
+  {
+    "minecraft": "1.21.10",
+    "game": "G:\\game\\mcfabric\\.minecraft\\versions\\1.21.10服务器",
+    "profile": "G:\\game\\mcfabric\\.minecraft\\versions\\1.21.10服务器\\1.21.10服务器.json",
+    "loader": "0.18.1",
+    "fabric_api": "0.138.4+1.21.10",
+    "runtime": "G:\\game\\mcfabric\\.minecraft\\versions\\1.21.10服务器\\mods\\fabric-train-simulator-0.2.42-mc1.21.10-fabric.jar",
+    "sha256": "85c8cb10055c1b9e8bd4686a63c2a5d186d61ae176024eb6adbc3b92ef09663f",
+    "old_renamed": [
+      "G:\\game\\mcfabric\\.minecraft\\versions\\1.21.10服务器\\mods\\fabric-train-simulator-0.2.42-test46-mc1.21.10-fabric.jar.before-formal-1dca8d0747094533b798dc0f4003e1cf"
+    ]
+  },
+  {
+    "minecraft": "1.21.11",
+    "game": "G:\\game\\mcfabric\\.minecraft\\versions\\1.21.11-Fabric",
+    "profile": "G:\\game\\mcfabric\\.minecraft\\versions\\1.21.11-Fabric\\1.21.11-Fabric.json",
+    "loader": "0.19.3",
+    "fabric_api": "0.141.5+1.21.11",
+    "runtime": "G:\\game\\mcfabric\\.minecraft\\versions\\1.21.11-Fabric\\mods\\fabric-train-simulator-0.2.42-mc1.21.11-fabric.jar",
+    "sha256": "82b331eadaac2bb7d9e2b6425effa5e06bea2d1843388e83ebec895ba7cb46fa",
+    "old_renamed": [
+      "G:\\game\\mcfabric\\.minecraft\\versions\\1.21.11-Fabric\\mods\\fabric-train-simulator-0.2.42-test46-mc1.21.11-fabric.jar.before-formal-dcb04832fd644696aa1dd402d7232500"
+    ]
+  },
+  {
+    "minecraft": "26.1.2",
+    "game": "G:\\game\\mcfabric\\.minecraft\\versions\\26.1.2-Fabric",
+    "profile": "G:\\game\\mcfabric\\.minecraft\\versions\\26.1.2-Fabric\\26.1.2-Fabric.json",
+    "loader": "0.19.3",
+    "fabric_api": "0.155.2+26.1.2",
+    "runtime": "G:\\game\\mcfabric\\.minecraft\\versions\\26.1.2-Fabric\\mods\\fabric-train-simulator-0.2.42-mc26.1.2-fabric.jar",
+    "sha256": "1239a22ad80a888821879d87a481fcbc3f12d23b00d60f8563a70bdc475a7d0d",
+    "old_renamed": [
+      "G:\\game\\mcfabric\\.minecraft\\versions\\26.1.2-Fabric\\mods\\fabric-train-simulator-0.2.42-test46-mc26.1.2-fabric.jar.before-formal-ac187ee20f7b4312846101ef98dce6f6"
+    ]
+  },
+  {
+    "minecraft": "26.2",
+    "game": "G:\\game\\mcfabric\\.minecraft\\versions\\26.2",
+    "profile": "G:\\game\\mcfabric\\.minecraft\\versions\\26.2\\26.2.json",
+    "loader": "0.19.3",
+    "fabric_api": "0.154.0+26.2",
+    "runtime": "G:\\game\\mcfabric\\.minecraft\\versions\\26.2\\mods\\fabric-train-simulator-0.2.42-mc26.2-fabric.jar",
+    "sha256": "84dbfe06381454eff9feaed9c71bbc8c5ff224b11dec2c85b87717f29b293a1b",
+    "old_renamed": [
+      "G:\\game\\mcfabric\\.minecraft\\versions\\26.2\\mods\\fabric-train-simulator-0.2.42-test46-mc26.2-fabric.jar.before-formal-3efa2d064be34a7cb78d87c900341822"
+    ]
+  },
+  {
+    "minecraft": "26.3",
+    "game": "G:\\game\\mcfabric\\.minecraft\\versions\\26.3-Fabric",
+    "profile": "G:\\game\\mcfabric\\.minecraft\\versions\\26.3-Fabric\\26.3-Fabric.json",
+    "loader": "0.19.5",
+    "fabric_api": "0.163.0+26.3",
+    "runtime": "G:\\game\\mcfabric\\.minecraft\\versions\\26.3-Fabric\\mods\\fabric-train-simulator-0.2.42-mc26.3-fabric.jar",
+    "sha256": "0e9b191db5eac42dce9ca4bd8492a628829a95791bc21757730f30d8deff8857",
+    "old_renamed": [
+      "G:\\game\\mcfabric\\.minecraft\\versions\\26.3-Fabric\\mods\\fabric-train-simulator-0.2.42-test46-mc26.3-fabric.jar.before-formal-d12b738e10fa4dc5bfc3186247990952"
+    ]
+  }
+]

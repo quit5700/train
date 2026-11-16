@@ -1,0 +1,51 @@
+package cn.quit5700.fabrictrain.network;
+
+import cn.quit5700.fabrictrain.FabricTrainMod;
+import cn.quit5700.fabrictrain.train.LinkedTrainCar;
+import cn.quit5700.fabrictrain.train.TrainSpeedPresentation;
+import net.fabricmc.fabric.api.networking.v1.ServerPlayNetworking;
+import net.fabricmc.fabric.api.networking.v1.PayloadTypeRegistry;
+import net.minecraft.network.codec.StreamCodec;
+import net.minecraft.network.protocol.common.custom.CustomPacketPayload;
+import net.minecraft.network.RegistryFriendlyByteBuf;
+import net.minecraft.server.MinecraftServer;
+import net.minecraft.server.level.ServerPlayer;
+import net.minecraft.world.phys.Vec3;
+import java.util.Map;
+import java.util.UUID;
+import java.util.WeakHashMap;
+
+public final class TrainSpeedTelemetry {
+    private record Position(UUID vehicle, Vec3 position) {}
+    private static final Map<ServerPlayer, Position> PREVIOUS = new WeakHashMap<>();
+
+    private TrainSpeedTelemetry() {}
+
+    public static void register() {
+        PayloadTypeRegistry.playS2C().register(Sample.ID, Sample.CODEC);
+    }
+
+    public static void tick(MinecraftServer server) {
+        for (ServerPlayer player : server.getPlayerList().getPlayers()) {
+            var vehicle = player.getVehicle();
+            if (!(vehicle instanceof LinkedTrainCar)) {
+                PREVIOUS.remove(player);
+                continue;
+            }
+            var current = new Position(vehicle.getUUID(), vehicle.position());
+            var previous = PREVIOUS.put(player, current);
+            if (previous == null || !previous.vehicle().equals(current.vehicle())) continue;
+            if (server.getTickCount() % 4 != 0 || !ServerPlayNetworking.canSend(player, Sample.ID)) continue;
+            double speed = TrainSpeedPresentation.measuredSpeed(current.position().distanceTo(previous.position()));
+            ServerPlayNetworking.send(player, new Sample(current.vehicle(), speed));
+        }
+    }
+
+    public record Sample(UUID vehicle, double speed) implements CustomPacketPayload {
+        public static final Type<Sample> ID = new Type<>(FabricTrainMod.id("train_speed_sample"));
+        public static final StreamCodec<RegistryFriendlyByteBuf, Sample> CODEC = CustomPacketPayload.codec(Sample::write, Sample::read);
+        private void write(RegistryFriendlyByteBuf buffer) { buffer.writeUUID(vehicle); buffer.writeDouble(speed); }
+        private static Sample read(RegistryFriendlyByteBuf buffer) { return new Sample(buffer.readUUID(), buffer.readDouble()); }
+        @Override public Type<? extends CustomPacketPayload> type() { return ID; }
+    }
+}

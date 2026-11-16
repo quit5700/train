@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "entry_direction=south,switch_choice=0": {"model": "fabric_train_simulator:block/switch_rail_left"},
+    "entry_direction=south,switch_choice=1": {"model": "fabric_train_simulator:block/switch_rail_front"},
+    "entry_direction=south,switch_choice=2": {"model": "fabric_train_simulator:block/switch_rail_right"},
+    "entry_direction=north,switch_choice=0": {"model": "fabric_train_simulator:block/switch_rail_left", "y": 180},
+    "entry_direction=north,switch_choice=1": {"model": "fabric_train_simulator:block/switch_rail_front", "y": 180},
+    "entry_direction=north,switch_choice=2": {"model": "fabric_train_simulator:block/switch_rail_right", "y": 180},
+    "entry_direction=west,switch_choice=0": {"model": "fabric_train_simulator:block/switch_rail_left", "y": 90},
+    "entry_direction=west,switch_choice=1": {"model": "fabric_train_simulator:block/switch_rail_front", "y": 90},
+    "entry_direction=west,switch_choice=2": {"model": "fabric_train_simulator:block/switch_rail_right", "y": 90},
+    "entry_direction=east,switch_choice=0": {"model": "fabric_train_simulator:block/switch_rail_left", "y": 270},
+    "entry_direction=east,switch_choice=1": {"model": "fabric_train_simulator:block/switch_rail_front", "y": 270},
+    "entry_direction=east,switch_choice=2": {"model": "fabric_train_simulator:block/switch_rail_right", "y": 270}
+  }
+}

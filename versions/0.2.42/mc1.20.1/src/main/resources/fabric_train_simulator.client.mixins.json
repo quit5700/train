@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "cn.quit5700.fabrictrain.mixin.client",
+  "client": [
+    "MinecraftUseItemMixin",
+    "TrainMinecartCurveMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "refmap": "client-fabric-train-simulator-refmap.json"
+}

@@ -1,0 +1,105 @@
+{
+  "ambientocclusion": false,
+  "textures": {
+    "rail": "fabric_train_simulator:block/switch_rail_front",
+    "particle": "#rail",
+    "departure": "fabric_train_simulator:block/switch_departure_marker"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        1,
+        0
+      ],
+      "to": [
+        16,
+        1.01,
+        16
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#rail"
+        }
+      }
+    },
+    {
+      "from": [
+        8,
+        1.02,
+        12
+      ],
+      "to": [
+        9,
+        1.03,
+        13
+      ],
+      "shade": false,
+      "faces": {
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#departure"
+        }
+      }
+    },
+    {
+      "from": [
+        7,
+        1.02,
+        13
+      ],
+      "to": [
+        10,
+        1.03,
+        14
+      ],
+      "shade": false,
+      "faces": {
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#departure"
+        }
+      }
+    },
+    {
+      "from": [
+        6,
+        1.02,
+        14
+      ],
+      "to": [
+        11,
+        1.03,
+        15
+      ],
+      "shade": false,
+      "faces": {
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#departure"
+        }
+      }
+    }
+  ]
+}

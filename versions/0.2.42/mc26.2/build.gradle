@@ -1,0 +1,60 @@
+plugins { id 'net.fabricmc.fabric-loom' version '1.15.5' }
+version = project.mod_version
+group = 'cn.quit5700'
+base { archivesName = 'fabric-train-simulator' }
+repositories { mavenCentral(); maven { url = 'https://maven.fabricmc.net/' } }
+loom { runtimeOnlyLog4j = true }
+sourceSets.main.java.srcDir 'src/client/java'
+dependencies {
+    compileOnly files(rootProject.file('../../../test-fixtures/jade/Jade-mc26.2-Fabric-26.2.9.jar'))
+    minecraft 'com.mojang:minecraft:26.2'
+    implementation 'net.fabricmc:fabric-loader:0.19.3'
+    implementation 'net.fabricmc.fabric-api:fabric-api-base:2.0.4+ece063239e'
+    implementation 'net.fabricmc.fabric-api:fabric-object-builder-api-v1:24.1.0+6fcd5f039e'
+    implementation 'net.fabricmc.fabric-api:fabric-creative-tab-api-v1:5.0.14+d871b99e9e'
+    implementation 'net.fabricmc.fabric-api:fabric-lifecycle-events-v1:4.1.3+4575b05f9e'
+    implementation 'net.fabricmc.fabric-api:fabric-networking-api-v1:6.3.3+72073ef09e'
+    implementation 'net.fabricmc.fabric-api:fabric-events-interaction-v0:5.2.6+8f57f7ee9e'
+    implementation 'net.fabricmc.fabric-api:fabric-rendering-v1:25.3.0+67c847259e'
+    implementation 'net.fabricmc.fabric-api:fabric-screen-api-v1:5.1.0+48e3c0b09e'
+    testImplementation platform('org.junit:junit-bom:5.10.2')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+}
+processResources { inputs.property 'version',project.version; filesMatching('fabric.mod.json') { filter { it.replace('@VERSION@',project.version.toString()) } } }
+tasks.withType(JavaCompile).configureEach { options.release=25; options.encoding='UTF-8'; options.fork=true; options.forkOptions.jvmArgs=['-Dfile.encoding=UTF-8','-Dstdout.encoding=UTF-8','-Dstderr.encoding=UTF-8'] }
+java { withSourcesJar(); sourceCompatibility=JavaVersion.VERSION_25; targetCompatibility=JavaVersion.VERSION_25 }
+tasks.named('sourcesJar') { inputs.property 'version',project.version; filteringCharset='UTF-8'; filesMatching('fabric.mod.json') { filter { it.replace('@VERSION@',project.version.toString()) } } }
+def asciiRoot=file(System.getProperty('java.io.tmpdir')+'/integrated-train-tests/26.2-0.2.42')
+tasks.register('syncAsciiTests',Sync) { dependsOn 'testClasses'; into asciiRoot; from('build/classes/java/main'){into 'main'};from('build/resources/main'){into 'resources'};from('build/classes/java/test'){into 'test'} }
+tasks.withType(Test).configureEach { useJUnitPlatform();dependsOn 'syncAsciiTests';testClassesDirs=files(new File(asciiRoot,'test'));classpath=files(new File(asciiRoot,'test'),new File(asciiRoot,'main'),new File(asciiRoot,'resources'))+configurations.testRuntimeClasspath+configurations.runtimeClasspath;jvmArgs '-Dfile.encoding=UTF-8','-Dstdout.encoding=UTF-8','-Dstderr.encoding=UTF-8' }
+loom.runs.server { runDir 'run-smoke'; if(project.hasProperty('smoke')) vmArg ('-Dstation_access.smoke='+project.property('smoke')) }
+tasks.register('writeSmokeLaunch') {
+ dependsOn 'classes','configureLaunch'
+ doLast { def cfg=net.fabricmc.loom.configuration.ide.RunConfig.runConfig(project,loom.runs.getByName('server'));def command=[file(System.getProperty('java.home')+'/bin/java.exe').absolutePath]+cfg.vmArgs+['-Dfile.encoding=UTF-8','-Dstdout.encoding=UTF-8','-Dstderr.encoding=UTF-8','-cp',tasks.named('runServer').get().classpath.asPath,cfg.mainClass]+cfg.programArgs;file('build/server-command.json').setText(groovy.json.JsonOutput.toJson([command:command,environment:cfg.environmentVariables]),'UTF-8') }
+}
+
+tasks.withType(Test).configureEach { systemProperty 'station_access.helpApiJar', project.findProperty('helpApiJar') ?: rootProject.file('../../../test-fixtures/quick-build-help-api1.jar').absolutePath }
+
+// 完整运行依赖同步到纯英文临时目录，保证中文项目路径下测试能找到游戏类。
+tasks.named('syncAsciiTests') {
+ from({ tasks.named('runServer').get().classpath.filter { it.isFile() && it.name.endsWith('.jar') } }) { into 'runtime-jars' }
+}
+tasks.withType(Test).configureEach { classpath += fileTree(new File(asciiRoot,'runtime-jars')) { include '*.jar' } }
+
+tasks.register('copyDistribution', Copy) {
+    dependsOn tasks.named('jar'), tasks.named('sourcesJar')
+    into layout.projectDirectory.dir('dist')
+    from(tasks.named('jar')) { rename { "fabric-train-simulator-${project.mod_version}-mc26.2-fabric.jar" } }
+    from(tasks.named('sourcesJar')) { rename { "fabric-train-simulator-${project.mod_version}-mc26.2-fabric-sources.jar" } }
+}
+tasks.named('build') { finalizedBy tasks.named('copyDistribution') }
+
+// 为独立原生回归导出本版本真实的开发命名编译类路径，不依赖旧测试工程。
+tasks.register('writeReleaseProbeClasspath') {
+    dependsOn 'classes'
+    doLast {
+        def env = sourceSets.findByName('client') ?: sourceSets.main
+        file('build/release-probe-classpath.txt').setText((env.compileClasspath + sourceSets.main.output + env.output).asPath, 'UTF-8')
+    }
+}

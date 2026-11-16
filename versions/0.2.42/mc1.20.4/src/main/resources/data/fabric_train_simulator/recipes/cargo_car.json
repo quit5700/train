@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CCC",
+    " M "
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:orange_wool"
+    },
+    "M": {
+      "item": "minecraft:chest_minecart"
+    }
+  },
+  "result": {
+    "count": 1,
+    "item": "fabric_train_simulator:cargo_car"
+  }
+}

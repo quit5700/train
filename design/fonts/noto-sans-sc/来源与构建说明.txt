@@ -1,0 +1,5 @@
+来源：https://github.com/google/fonts/tree/main/ofl/notosanssc
+上游原文件：NotoSansSC[wght].ttf
+授权：SIL Open Font License 1.1（SIL开放字体许可证1.1）
+生成：fontTools 4.68.0，固定wght=500，保留完整字符集。
+可变字体原始默认字重100，不能直接以默认实例交付。

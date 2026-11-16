@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "cn.quit5700.fabrictrain.mixin.client",
+  "client": [
+    "MinecraftUseItemMixin",
+    "TrainMinecartCurveMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

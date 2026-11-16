@@ -1,0 +1,453 @@
+{
+  "version": "0.2.42",
+  "units": 4017,
+  "versions": {
+    "1.20.1": {
+      "unit": {
+        "tests": 430,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      "class_equal": true,
+      "native_icon": {
+        "complete": true,
+        "passed": true,
+        "checks": {
+          "formal_version": true,
+          "confirmed_original_icon": true,
+          "native_png_decode": true,
+          "optional_quick_build_absent": true,
+          "optional_jade_absent": true
+        },
+        "error": "",
+        "ticks": 60
+      },
+      "runtime_sha256": "435a164156c3caa73d350c1a66f5fb9d0108f4103f8034b48a24b3766ff2fe81"
+    },
+    "1.20.4": {
+      "unit": {
+        "tests": 429,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      "class_equal": true,
+      "native_icon": {
+        "complete": true,
+        "passed": true,
+        "checks": {
+          "formal_version": true,
+          "confirmed_original_icon": true,
+          "native_png_decode": true,
+          "optional_quick_build_absent": true,
+          "optional_jade_absent": true
+        },
+        "error": "",
+        "ticks": 60
+      },
+      "runtime_sha256": "9f82b90e67a9de5f81e20786fd8483f7ba8604fd82c5bf27e5357c575bc2cd1e"
+    },
+    "1.21.1": {
+      "unit": {
+        "tests": 426,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      "class_equal": true,
+      "native_icon": {
+        "complete": true,
+        "passed": true,
+        "checks": {
+          "formal_version": true,
+          "confirmed_original_icon": true,
+          "native_png_decode": true,
+          "optional_quick_build_absent": true,
+          "optional_jade_absent": true
+        },
+        "error": "",
+        "ticks": 60
+      },
+      "runtime_sha256": "ede7521d7ad1c643698084fd02f79e5bbbdefbc0752012ff8b6784f409ae4f98"
+    },
+    "1.21.4": {
+      "unit": {
+        "tests": 399,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      "class_equal": true,
+      "native_icon": {
+        "complete": true,
+        "passed": true,
+        "checks": {
+          "formal_version": true,
+          "confirmed_original_icon": true,
+          "native_png_decode": true,
+          "optional_quick_build_absent": true,
+          "optional_jade_absent": true
+        },
+        "error": "",
+        "ticks": 60
+      },
+      "runtime_sha256": "747894dc8b9b89a80b25c616204a13a34c5a23b6c99d12b4afb02791a0e53247"
+    },
+    "1.21.8": {
+      "unit": {
+        "tests": 393,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      "class_equal": true,
+      "native_icon": {
+        "complete": true,
+        "passed": true,
+        "checks": {
+          "formal_version": true,
+          "confirmed_original_icon": true,
+          "native_png_decode": true,
+          "optional_quick_build_absent": true,
+          "optional_jade_absent": true
+        },
+        "error": "",
+        "ticks": 60
+      },
+      "runtime_sha256": "2f3771581e446c6e65e642473fda19e062f12c4071fa5a8c8503181945b80a79"
+    },
+    "1.21.10": {
+      "unit": {
+        "tests": 392,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      "class_equal": true,
+      "native_icon": {
+        "complete": true,
+        "passed": true,
+        "checks": {
+          "formal_version": true,
+          "confirmed_original_icon": true,
+          "native_png_decode": true,
+          "optional_quick_build_absent": true,
+          "optional_jade_absent": true
+        },
+        "error": "",
+        "ticks": 60
+      },
+      "runtime_sha256": "85c8cb10055c1b9e8bd4686a63c2a5d186d61ae176024eb6adbc3b92ef09663f"
+    },
+    "1.21.11": {
+      "unit": {
+        "tests": 392,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      "class_equal": true,
+      "native_icon": {
+        "complete": true,
+        "passed": true,
+        "checks": {
+          "formal_version": true,
+          "confirmed_original_icon": true,
+          "native_png_decode": true,
+          "optional_quick_build_absent": true,
+          "optional_jade_absent": true
+        },
+        "error": "",
+        "ticks": 60
+      },
+      "runtime_sha256": "82b331eadaac2bb7d9e2b6425effa5e06bea2d1843388e83ebec895ba7cb46fa"
+    },
+    "26.1.2": {
+      "unit": {
+        "tests": 384,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      "class_equal": true,
+      "native_icon": {
+        "complete": true,
+        "passed": true,
+        "checks": {
+          "formal_version": true,
+          "confirmed_original_icon": true,
+          "native_png_decode": true,
+          "optional_quick_build_absent": true,
+          "optional_jade_absent": true
+        },
+        "error": "",
+        "ticks": 60
+      },
+      "runtime_sha256": "1239a22ad80a888821879d87a481fcbc3f12d23b00d60f8563a70bdc475a7d0d"
+    },
+    "26.2": {
+      "unit": {
+        "tests": 385,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      "class_equal": true,
+      "native_icon": {
+        "complete": true,
+        "passed": true,
+        "checks": {
+          "formal_version": true,
+          "confirmed_original_icon": true,
+          "native_png_decode": true,
+          "optional_quick_build_absent": true,
+          "optional_jade_absent": true
+        },
+        "error": "",
+        "ticks": 60
+      },
+      "runtime_sha256": "84dbfe06381454eff9feaed9c71bbc8c5ff224b11dec2c85b87717f29b293a1b"
+    },
+    "26.3": {
+      "unit": {
+        "tests": 387,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      "class_equal": true,
+      "native_icon": {
+        "complete": true,
+        "passed": true,
+        "checks": {
+          "formal_version": true,
+          "confirmed_original_icon": true,
+          "native_png_decode": true,
+          "optional_quick_build_absent": true,
+          "optional_jade_absent": true
+        },
+        "error": "",
+        "ticks": 60
+      },
+      "runtime_sha256": "0e9b191db5eac42dce9ca4bd8492a628829a95791bc21757730f30d8deff8857"
+    }
+  },
+  "ui_baseline_assertions": 560,
+  "formal_26_3_ui": {
+    "complete": true,
+    "passed": true,
+    "ticks": 1323,
+    "client_ticks": 1261,
+    "checks": {
+      "FreightYardScreen_non_pausing": true,
+      "FreightYardScreen_world_advances": true,
+      "FreightYardScreen_original_train_moves": true,
+      "FreightYardScreen_rider_stays": true,
+      "DepotSettingsScreen_non_pausing": true,
+      "DepotSettingsScreen_world_advances": true,
+      "DepotSettingsScreen_original_train_moves": true,
+      "DepotSettingsScreen_rider_stays": true,
+      "DeviceSettingsScreen_non_pausing": true,
+      "DeviceSettingsScreen_world_advances": true,
+      "DeviceSettingsScreen_original_train_moves": true,
+      "DeviceSettingsScreen_rider_stays": true,
+      "RailwayManagerScreen_non_pausing": true,
+      "RailwayManagerScreen_world_advances": true,
+      "RailwayManagerScreen_original_train_moves": true,
+      "RailwayManagerScreen_rider_stays": true,
+      "LineSettingsScreen_non_pausing": true,
+      "LineSettingsScreen_world_advances": true,
+      "LineSettingsScreen_original_train_moves": true,
+      "LineSettingsScreen_rider_stays": true,
+      "TrainClassScreen_non_pausing": true,
+      "TrainClassScreen_world_advances": true,
+      "TrainClassScreen_original_train_moves": true,
+      "TrainClassScreen_rider_stays": true,
+      "CargoSettingsScreen_non_pausing": true,
+      "CargoSettingsScreen_world_advances": true,
+      "CargoSettingsScreen_original_train_moves": true,
+      "CargoSettingsScreen_rider_stays": true,
+      "FormationScreen_non_pausing": true,
+      "FormationScreen_world_advances": true,
+      "FormationScreen_original_train_moves": true,
+      "FormationScreen_rider_stays": true,
+      "TrainListScreen_non_pausing": true,
+      "TrainListScreen_world_advances": true,
+      "TrainListScreen_original_train_moves": true,
+      "TrainListScreen_rider_stays": true,
+      "GeneratorScreen_non_pausing": true,
+      "GeneratorScreen_world_advances": true,
+      "GeneratorScreen_original_train_moves": true,
+      "GeneratorScreen_rider_stays": true,
+      "AccessScreen_non_pausing": true,
+      "AccessScreen_world_advances": true,
+      "AccessScreen_original_train_moves": true,
+      "AccessScreen_rider_stays": true,
+      "RangeListScreen_non_pausing": true,
+      "RangeListScreen_world_advances": true,
+      "RangeListScreen_original_train_moves": true,
+      "RangeListScreen_rider_stays": true,
+      "ordinary_chest_non_pausing": true,
+      "ordinary_chest_world_advances": true,
+      "ordinary_chest_original_train_moves": true,
+      "ordinary_chest_rider_stays": true,
+      "delete_confirmation_non_pausing": true,
+      "delete_confirmation_world_advances": true,
+      "delete_confirmation_original_train_moves": true,
+      "delete_confirmation_rider_stays": true
+    },
+    "measurements": [
+      {
+        "world_ticks": 78,
+        "riding": true,
+        "client_ticks": 80,
+        "pause_flag": false,
+        "screen": "FreightYardScreen",
+        "train_distance": 3.9000000000005457
+      },
+      {
+        "world_ticks": 79,
+        "riding": true,
+        "client_ticks": 80,
+        "pause_flag": false,
+        "screen": "DepotSettingsScreen",
+        "train_distance": 3.949999999999818
+      },
+      {
+        "world_ticks": 79,
+        "riding": true,
+        "client_ticks": 80,
+        "pause_flag": false,
+        "screen": "DeviceSettingsScreen",
+        "train_distance": 3.9500000000007276
+      },
+      {
+        "world_ticks": 79,
+        "riding": true,
+        "client_ticks": 80,
+        "pause_flag": false,
+        "screen": "RailwayManagerScreen",
+        "train_distance": 3.949999999999818
+      },
+      {
+        "world_ticks": 79,
+        "riding": true,
+        "client_ticks": 80,
+        "pause_flag": false,
+        "screen": "LineSettingsScreen",
+        "train_distance": 3.949999999999818
+      },
+      {
+        "world_ticks": 78,
+        "riding": true,
+        "client_ticks": 80,
+        "pause_flag": false,
+        "screen": "TrainClassScreen",
+        "train_distance": 3.9000000000005457
+      },
+      {
+        "world_ticks": 79,
+        "riding": true,
+        "client_ticks": 80,
+        "pause_flag": false,
+        "screen": "CargoSettingsScreen",
+        "train_distance": 3.949999999999818
+      },
+      {
+        "world_ticks": 80,
+        "riding": true,
+        "client_ticks": 80,
+        "pause_flag": false,
+        "screen": "FormationScreen",
+        "train_distance": 4.0
+      },
+      {
+        "world_ticks": 78,
+        "riding": true,
+        "client_ticks": 80,
+        "pause_flag": false,
+        "screen": "TrainListScreen",
+        "train_distance": 3.9000000000005457
+      },
+      {
+        "world_ticks": 80,
+        "riding": true,
+        "client_ticks": 80,
+        "pause_flag": false,
+        "screen": "GeneratorScreen",
+        "train_distance": 4.0
+      },
+      {
+        "world_ticks": 78,
+        "riding": true,
+        "client_ticks": 80,
+        "pause_flag": false,
+        "screen": "AccessScreen",
+        "train_distance": 3.9000000000005457
+      },
+      {
+        "world_ticks": 79,
+        "riding": true,
+        "client_ticks": 80,
+        "pause_flag": false,
+        "screen": "RangeListScreen",
+        "train_distance": 3.949999999999818
+      },
+      {
+        "world_ticks": 80,
+        "riding": true,
+        "client_ticks": 80,
+        "pause_flag": false,
+        "screen": "ordinary_chest",
+        "train_distance": 4.0
+      },
+      {
+        "world_ticks": 78,
+        "riding": true,
+        "client_ticks": 80,
+        "pause_flag": false,
+        "screen": "delete_confirmation",
+        "train_distance": 3.9000000000005457
+      }
+    ],
+    "confirmation_debug": [
+      {
+        "served": 13,
+        "selected": false,
+        "same_parent": false
+      },
+      {
+        "served": 13,
+        "selected": false,
+        "same_parent": true
+      },
+      {
+        "served": 13,
+        "selected": false,
+        "same_parent": true
+      },
+      {
+        "served": 13,
+        "selected": false,
+        "same_parent": true
+      },
+      {
+        "served": 13,
+        "selected": false,
+        "same_parent": true
+      },
+      {
+        "x": 166.0,
+        "y": 52.0,
+        "method": "public boolean cn.quit5700.fabrictrain.client.RailwayManagerScreen.mouseClicked(net.minecraft.client.input.MouseButtonEvent,boolean)",
+        "after": "cn.quit5700.fabrictrain.client.RailwayManagerScreen$1",
+        "returned": "true"
+      }
+    ],
+    "original_train": "7fd859f3-974f-4cf0-856d-96c1de6c917e",
+    "error": ""
+  },
+  "icon_sha256": "2f940150d42540fe5dd88ba7b41b8c08f63f5dc68d985f8e3aaf550e799cef85",
+  "production_logic_changes": false
+}

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "fabric_train_simulator:block/freight_yard"
+    }
+  }
+}

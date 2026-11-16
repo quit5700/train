@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "fabric_train_simulator:block/freight_yard"
+  }
+}

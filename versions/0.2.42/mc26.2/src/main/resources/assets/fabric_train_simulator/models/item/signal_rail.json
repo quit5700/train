@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "fabric_train_simulator:block/signal_rail"
+  }
+}

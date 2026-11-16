@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RR ",
+    "RDR",
+    " RR"
+  ],
+  "key": {
+    "R": {
+      "item": "fabric_train_simulator:signal_rail"
+    },
+    "D": {
+      "item": "minecraft:redstone_torch"
+    }
+  },
+  "result": {
+    "id": "fabric_train_simulator:switch_rail",
+    "count": 2
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "fabric_train_simulator",
+  "version": "@VERSION@",
+  "name": "模拟火车",
+  "description": "铁路、道岔、列车、车站、车辆段、编组货运与车票通行系统。",
+  "authors": [
+    "quit5700"
+  ],
+  "license": "All Rights Reserved",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "cn.quit5700.fabrictrain.FabricTrainMod"
+    ],
+    "client": [
+      "cn.quit5700.fabrictrain.FabricTrainClient",
+      "cn.quit5700.fabrictrain.FormationClient"
+    ],
+    "jade": [
+      "cn.quit5700.fabrictrain.compat.jade.TrainJadePlugin"
+    ]
+  },
+  "mixins": [
+    "fabric_train_simulator.common.mixins.json",
+    "fabric_train_simulator.client.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "26.3",
+    "java": ">=25",
+    "fabric-api-base": ">=2.0.6",
+    "fabric-lifecycle-events-v1": ">=4.1.9",
+    "fabric-creative-tab-api-v1": ">=5.0.22",
+    "fabric-networking-api-v1": ">=6.3.10",
+    "fabric-events-interaction-v0": ">=5.3.8",
+    "fabric-object-builder-api-v1": ">=24.1.11"
+  },
+  "suggests": {
+    "fabric-rendering-v1": ">=27.1.0",
+    "jade": ">=26.3.5"
+  },
+  "icon": "assets/fabric_train_simulator/icon.png"
+}

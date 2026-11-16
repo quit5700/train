@@ -1,0 +1,17 @@
+{
+  "minecraft": "26.1.2",
+  "version": "0.2.42",
+  "runtime": "H:\\CodexWork\\模拟火车模组\\最新正式源码\\versions\\0.2.42\\mc26.1.2\\dist\\fabric-train-simulator-0.2.42-mc26.1.2-fabric.jar",
+  "runtime_sha256": "1239a22ad80a888821879d87a481fcbc3f12d23b00d60f8563a70bdc475a7d0d",
+  "sources_sha256": "93eef5f316c67204ab72a4b7f5965f3c75b705ba2264bb8f325a6e67918d462e",
+  "icon_sha256": "2f940150d42540fe5dd88ba7b41b8c08f63f5dc68d985f8e3aaf550e799cef85",
+  "unit": {
+    "tests": 384,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "production_classes_identical_to_accepted_test46": true,
+  "baseline_native_pages": 14,
+  "baseline_native_assertions": 56
+}

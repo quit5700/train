@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "north": "fabric_train_simulator:block/freight_yard_front",
+    "east": "fabric_train_simulator:block/freight_yard_side",
+    "south": "fabric_train_simulator:block/freight_yard_front",
+    "west": "fabric_train_simulator:block/freight_yard_side",
+    "up": "fabric_train_simulator:block/freight_yard_top",
+    "down": "fabric_train_simulator:block/freight_yard_bottom",
+    "particle": "fabric_train_simulator:block/freight_yard_side"
+  }
+}

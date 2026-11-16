@@ -1,0 +1,22 @@
+{
+  "approved_date": "2026-11-03",
+  "approved_plan": 2,
+  "rejected_plan": 1,
+  "version": "0.2.42-test6",
+  "files": {
+    "对应说明.md": "3eb914b364ee1a54498c4e54fe4e1c0d37b37ac4c811cb91203f77b4619bd937",
+    "用户确认图.png": "d8a33d51fd8306dbca7705ee43bdc58376c8071ce99fe1ef0dcff7791407e82d",
+    "原始材质\\switch_rail_base.png": "baf3cc44d9cce58d966fb6b94a29fa7a19fa768adb3fefe1cb96c34dd45cbd5c",
+    "原始材质\\switch_rail_front.png": "302ab4d949c3b4b66f2f26d8a7b523ad9bf44206530d1dcf19311a5652daca75",
+    "原始材质\\switch_rail_left.png": "09811a4c3dd62630d1813eadbdc1bac815dee47371e3669fd9502b6036c8b035",
+    "原始材质\\switch_rail_right.png": "38a43e56de7bdec9d460f69ab98c5c34c8a44690910999b052533bd7d35982b0",
+    "原始模型\\switch_rail_front.json": "88c948b12fff6c3ca7d1b08ec1163e08e929247002bfccd3a97f970b643fdc52",
+    "原始模型\\switch_rail_left.json": "904e65e2ec4baeb038463dee637830bd215aae278a4c028bb4cb9b44b4dd8796",
+    "原始模型\\switch_rail_right.json": "f1d550b48ec7d4af268648eccd18458998f3a53dbc1a0dc6c09afce59a7a2643",
+    "原始模型\\四向旋转.json": "2532cff671831970602658b1eeb270f91e342b40f7e8f745862a859f68dfaa1f",
+    "实施模型\\switch_departure_marker.png": "c53d0c8619f29458a6779b4fa76a6cf210771792b1085ce88abd7347de048481",
+    "实施模型\\switch_rail_front.json": "9a0eb87718d1e386f1ef98953f96bcf17e022bf242d354d0cb4362b0b1796341",
+    "实施模型\\switch_rail_left.json": "a0e632b5b2071396bae3a3bd622ec019e034fa9d4f3c753ac86a061cad728b38",
+    "实施模型\\switch_rail_right.json": "ac83fc86ca5222490671a0f4be73aa64337135b902c9dca11ab8a71f4f20c367"
+  }
+}

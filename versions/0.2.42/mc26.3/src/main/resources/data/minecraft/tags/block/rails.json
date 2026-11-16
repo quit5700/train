@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "fabric_train_simulator:signal_rail",
+    "fabric_train_simulator:switch_rail"
+  ]
+}

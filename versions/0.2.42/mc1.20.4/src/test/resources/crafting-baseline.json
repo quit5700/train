@@ -1,0 +1,223 @@
+[
+  {
+    "id": "fabric_train_simulator:cargo_car",
+    "grid": [
+      "minecraft:orange_wool",
+      "minecraft:orange_wool",
+      "minecraft:orange_wool",
+      "",
+      "minecraft:chest_minecart",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "result": "fabric_train_simulator:cargo_car",
+    "count": 1,
+    "source": "data/fabric_train_simulator/recipe/cargo_car.json"
+  },
+  {
+    "id": "fabric_train_simulator:freight_yard",
+    "grid": [
+      "minecraft:iron_ingot",
+      "minecraft:hopper",
+      "minecraft:iron_ingot",
+      "",
+      "minecraft:chest",
+      "",
+      "minecraft:iron_ingot",
+      "minecraft:redstone",
+      "minecraft:iron_ingot"
+    ],
+    "result": "fabric_train_simulator:freight_yard",
+    "count": 1,
+    "source": "data/fabric_train_simulator/recipe/freight_yard.json"
+  },
+  {
+    "id": "fabric_train_simulator:line_setter",
+    "grid": [
+      "",
+      "minecraft:redstone",
+      "",
+      "minecraft:copper_ingot",
+      "minecraft:map",
+      "minecraft:copper_ingot",
+      "",
+      "minecraft:redstone",
+      ""
+    ],
+    "result": "fabric_train_simulator:line_setter",
+    "count": 1,
+    "source": "data/fabric_train_simulator/recipe/line_setter.json"
+  },
+  {
+    "id": "fabric_train_simulator:locomotive",
+    "grid": [
+      "",
+      "minecraft:copper_block",
+      "",
+      "minecraft:iron_ingot",
+      "minecraft:minecart",
+      "minecraft:iron_ingot",
+      "minecraft:iron_ingot",
+      "minecraft:redstone_block",
+      "minecraft:iron_ingot"
+    ],
+    "result": "fabric_train_simulator:locomotive",
+    "count": 1,
+    "source": "data/fabric_train_simulator/recipe/locomotive.json"
+  },
+  {
+    "id": "fabric_train_simulator:passenger_car",
+    "grid": [
+      "minecraft:blue_wool",
+      "minecraft:blue_wool",
+      "minecraft:blue_wool",
+      "",
+      "minecraft:minecart",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "result": "fabric_train_simulator:passenger_car",
+    "count": 1,
+    "source": "data/fabric_train_simulator/recipe/passenger_car.json"
+  },
+  {
+    "id": "fabric_train_simulator:power_generator",
+    "grid": [
+      "minecraft:copper_ingot",
+      "minecraft:redstone_block",
+      "minecraft:copper_ingot",
+      "minecraft:redstone_block",
+      "minecraft:furnace",
+      "minecraft:redstone_block",
+      "minecraft:copper_ingot",
+      "minecraft:iron_block",
+      "minecraft:copper_ingot"
+    ],
+    "result": "fabric_train_simulator:power_generator",
+    "count": 1,
+    "source": "data/fabric_train_simulator/recipe/power_generator.json"
+  },
+  {
+    "id": "fabric_train_simulator:signal_rail",
+    "grid": [
+      "minecraft:rail",
+      "minecraft:rail",
+      "minecraft:rail",
+      "minecraft:rail",
+      "minecraft:redstone",
+      "minecraft:rail",
+      "minecraft:rail",
+      "minecraft:rail",
+      "minecraft:rail"
+    ],
+    "result": "fabric_train_simulator:signal_rail",
+    "count": 8,
+    "source": "data/fabric_train_simulator/recipe/signal_rail.json"
+  },
+  {
+    "id": "fabric_train_simulator:station_marker",
+    "grid": [
+      "",
+      "minecraft:iron_ingot",
+      "",
+      "minecraft:redstone",
+      "minecraft:heavy_weighted_pressure_plate",
+      "minecraft:redstone",
+      "",
+      "minecraft:iron_ingot",
+      ""
+    ],
+    "result": "fabric_train_simulator:station_marker",
+    "count": 1,
+    "source": "data/fabric_train_simulator/recipe/station_marker.json"
+  },
+  {
+    "id": "fabric_train_simulator:switch_rail",
+    "grid": [
+      "fabric_train_simulator:signal_rail",
+      "fabric_train_simulator:signal_rail",
+      "",
+      "fabric_train_simulator:signal_rail",
+      "minecraft:redstone_torch",
+      "fabric_train_simulator:signal_rail",
+      "",
+      "fabric_train_simulator:signal_rail",
+      "fabric_train_simulator:signal_rail"
+    ],
+    "result": "fabric_train_simulator:switch_rail",
+    "count": 2,
+    "source": "data/fabric_train_simulator/recipe/switch_rail.json"
+  },
+  {
+    "id": "fabric_train_simulator:train_connector",
+    "grid": [
+      "",
+      "minecraft:iron_ingot",
+      "",
+      "minecraft:iron_ingot",
+      "minecraft:redstone_block",
+      "minecraft:iron_ingot",
+      "",
+      "minecraft:iron_ingot",
+      ""
+    ],
+    "result": "fabric_train_simulator:train_connector",
+    "count": 1,
+    "source": "data/fabric_train_simulator/recipe/train_connector.json"
+  },
+  {
+    "id": "fabric_train_simulator:train_depot",
+    "grid": [
+      "minecraft:iron_ingot",
+      "minecraft:redstone",
+      "minecraft:iron_ingot",
+      "minecraft:copper_ingot",
+      "minecraft:minecart",
+      "minecraft:copper_ingot",
+      "minecraft:iron_ingot",
+      "minecraft:redstone",
+      "minecraft:iron_ingot"
+    ],
+    "result": "fabric_train_simulator:train_depot",
+    "count": 1,
+    "source": "data/fabric_train_simulator/recipe/train_depot.json"
+  },
+  {
+    "id": "station_access:setter",
+    "grid": [
+      "minecraft:iron_ingot",
+      "minecraft:redstone",
+      "minecraft:iron_ingot",
+      "",
+      "minecraft:stick",
+      "",
+      "",
+      "minecraft:stick",
+      ""
+    ],
+    "result": "station_access:setter",
+    "count": 1,
+    "source": "data/station_access/recipes/setter.json"
+  },
+  {
+    "id": "station_access:terminal",
+    "grid": [
+      "minecraft:iron_ingot",
+      "minecraft:glass_pane",
+      "minecraft:iron_ingot",
+      "minecraft:iron_ingot",
+      "minecraft:redstone",
+      "minecraft:iron_ingot",
+      "minecraft:iron_ingot",
+      "minecraft:iron_ingot",
+      "minecraft:iron_ingot"
+    ],
+    "result": "station_access:terminal",
+    "count": 1,
+    "source": "data/station_access/recipes/terminal.json"
+  }
+]
